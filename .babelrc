@@ -1,0 +1,24 @@
+{
+  "plugins": [
+    ["babel-plugin-styled-components", {
+      "ssr": false,
+      "displayName": true,
+      "fileName": false
+    }]
+  ],
+  "presets": [
+    [
+      "@babel/preset-env", {
+      "targets": {
+        "browsers": [
+          ">0.25%",
+          "not ie 11",
+          "not op_mini all"
+        ]
+      }
+    }],
+    [
+      "@babel/preset-react"
+    ]
+  ]
+}
